@@ -5,7 +5,7 @@ var i, c, y, v, s, n;
 var im = [];
 v = document.getElementsByClassName("codegena_iframe");
 for (n = 0; n < v.length; n++) {
-  im[n] = v[n].hasAttribute("data-img") ? v[n].getAttribute("data-img") : "http://2.bp.blogspot.com/-krXgAqXpPPw/VgkPK7s9CMI/AAAAAAAAB1Y/IVvHmrRYMDI/s1600/dynamic_iframe.png";
+  im[n] = v[n].hasAttribute("data-img") ? v[n].getAttribute("data-img") : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCowomJQEQBFYGnVIl0jAGTopx6h6Dm9b_rkhdRVyM11G0ZXYMSQ_VFmXwSlWCPb9qxinEbcJuzOtB1hH38CGvAyOIxtH22TWnkmRX8bBkIdY2YrX5E9Y1o4fPGu3jE5Mk2JWhMPCjCwDn-0oTon7Y-vSc8qg_QhdxjR5Tmqq8tEm0p3D6KjLy9tx4PVY/s1600/dynamic_iframe-3.png";
 }
 
 if (v.length > 0) {
