@@ -5,7 +5,7 @@ var i, c, y, v, s, n;
 var im = [];
 v = document.getElementsByClassName("codegena_iframe");
 for (n = 0; n < v.length; n++) {
-  im[n] = v[n].hasAttribute("data-img") ? v[n].getAttribute("data-img") : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNFRDfEGxWik-AJY_HWCWzhili8YAIaJ_cPm6ZU9_5zBEynhISi6WEGzxArFD3dUN0vHZcQ9Qw-u1V-K1ZTTYtfwEfP7NZwVMZBmC_hHmHBjUh8NVjqEAqGIk7utqLVMDshYsoq30OHqAncOWwjZ_Q41m1EWc7a6JoxnhRkXFKKSZb0NgzoITZFQwytc8/s16000/dynamic_iframe-4.png";
+  im[n] = v[n].hasAttribute("data-img") ? v[n].getAttribute("data-img") : "https://raw.githubusercontent.com/ChrisSuryanto/CodeBlog/master/dynamic_iframe-5.jpg";
 }
 
 if (v.length > 0) {
