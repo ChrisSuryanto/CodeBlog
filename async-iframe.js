@@ -36,6 +36,7 @@ for (n = 0; n < v.length; n++) {
   y.onclick = function() {
     var t = document.createElement("iframe");
     t.setAttribute("src", this.getAttribute("data-src"));
+    t.setAttribute("alt", "Lokasi Google Maps SERVISLAPTOPJOGJA");
     t.setAttribute("style", this.getAttribute("data-css"));
     t.width = this.style.width;
     t.height = this.style.height;
