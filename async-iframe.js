@@ -26,6 +26,7 @@ for (n = 0; n < v.length; n++) {
   }
   i = document.createElement("img");
   i.setAttribute("src", im[n]);
+  i.setAttribute("alt", "Lokasi Google Maps SERVISLAPTOPJOGJA");
   i.setAttribute("class", "thumb");
   /*c = document.createElement("div");
   c.setAttribute("class", "play");*/
